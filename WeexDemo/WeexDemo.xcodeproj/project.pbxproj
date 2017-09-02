@@ -16,6 +16,7 @@
 		2D39C69C1F5A69100063ED7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D39C69A1F5A69100063ED7D /* LaunchScreen.storyboard */; };
 		2D39C6A71F5A69100063ED7D /* WeexDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39C6A61F5A69100063ED7D /* WeexDemoTests.m */; };
 		2D39C6B21F5A69100063ED7D /* WeexDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39C6B11F5A69100063ED7D /* WeexDemoUITests.m */; };
+		2D39C6C11F5A9BB60063ED7D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39C6C01F5A9BB60063ED7D /* SecondViewController.m */; };
 		47211A85B0BE82F17AC9BF11 /* libPods-WeexDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D781814373BC1FC0055F60 /* libPods-WeexDemoUITests.a */; };
 		91E4DA56904228DBA0410535 /* libPods-WeexDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB1B22F44454E3DB5CB6CBE /* libPods-WeexDemoTests.a */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,8 @@
 		2D39C6AD1F5A69100063ED7D /* WeexDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeexDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D39C6B11F5A69100063ED7D /* WeexDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexDemoUITests.m; sourceTree = "<group>"; };
 		2D39C6B31F5A69100063ED7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D39C6BF1F5A9BB60063ED7D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2D39C6C01F5A9BB60063ED7D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		43D781814373BC1FC0055F60 /* libPods-WeexDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2D8A5B3B9C14493241D3B6 /* Pods-WeexDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		932180ED09B477852ECAC731 /* libPods-WeexDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +123,8 @@
 			children = (
 				2D39C68F1F5A69100063ED7D /* AppDelegate.h */,
 				2D39C6901F5A69100063ED7D /* AppDelegate.m */,
+				2D39C6BF1F5A9BB60063ED7D /* SecondViewController.h */,
+				2D39C6C01F5A9BB60063ED7D /* SecondViewController.m */,
 				2D39C6921F5A69100063ED7D /* ViewController.h */,
 				2D39C6931F5A69100063ED7D /* ViewController.m */,
 				2D39C6951F5A69100063ED7D /* Main.storyboard */,
@@ -463,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D39C6C11F5A9BB60063ED7D /* SecondViewController.m in Sources */,
 				2D39C6941F5A69100063ED7D /* ViewController.m in Sources */,
 				2D39C6911F5A69100063ED7D /* AppDelegate.m in Sources */,
 				2D39C68E1F5A69100063ED7D /* main.m in Sources */,
