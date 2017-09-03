@@ -4,7 +4,6 @@
             <text class="text">jump</text>
         </a>
     </div>
-
 </template>
 
 <style scoped>
@@ -18,12 +17,21 @@
         margin-left: 150px;
         padding-top: 20px;
         padding-bottom: 20px;
-        border-width: 2.px;
+        border-width: 2px;
         border-style: solid;
         border-color: #dddddd;
         background-color: #F5F5F5;
     }
     .text{
+        width: 450px;
+        margin-top: 30px;
+        margin-left: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #DDDDDD;
+        background-color: #F5F5F5;
         font-size: 60px;
         color: #666666;
         text-align: center;
