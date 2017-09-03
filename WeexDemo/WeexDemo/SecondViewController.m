@@ -43,13 +43,13 @@
 			//process renderFinish
 		NSLog(@"finish");
 	};
-		//	NSURL *url = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"js"];
 	
 }
 
 - (void)viewWillAppear:(BOOL)animated{
 	[super viewWillAppear:animated];
-	NSURL * url = [NSURL URLWithString:@"http://192.168.10.56:8080/dist/app.weex.js"];
+    NSString * urlStr = [NSString stringWithFormat:@"http://%@:8080/dist/app.weex.js", _IPString];
+	NSURL * url = [NSURL URLWithString:urlStr];
 	[_instance renderWithURL:url options:@{@"bundleUrl":[url absoluteString]} data:nil];
 }
 /*
