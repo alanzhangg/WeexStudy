@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <WeexSDK/WeexSDK.h>
+#import "WXImgLoaderDefaultImpl.h"
 
 @interface AppDelegate ()
 
