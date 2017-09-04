@@ -7,6 +7,7 @@ target 'WeexDemo' do
 
   # Pods for WeexDemo
 pod 'WeexSDK', '~> 0.13.0'
+pod 'SDWebImage', '~> 4.0.0'
   target 'WeexDemoTests' do
     inherit! :search_paths
     # Pods for testing

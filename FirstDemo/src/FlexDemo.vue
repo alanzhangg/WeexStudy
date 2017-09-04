@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class = "pos">
         <div v-for="(v, i) in list" class="row">
             <div v-for="(text, k) in v" class="item">
                 <div>
@@ -11,6 +11,13 @@
 </template>
 
 <style scoped>
+    .pos{
+        position: absolute;
+        top: 128px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     .item{
         flex:1;
         justify-content: center;

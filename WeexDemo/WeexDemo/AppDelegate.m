@@ -25,6 +25,9 @@
 		//init sdk environment
 	[WXSDKEngine initSDKEnvironment];
 	
+	//图片加载
+	[WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
+	
 		//register custom module and component，optional
 //	[WXSDKEngine registerComponent:@"MyView" withClass:[MyViewComponent class]];
 //	[WXSDKEngine registerModule:@"event" withClass:[WXEventModule class]];
