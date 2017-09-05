@@ -266,7 +266,7 @@
 				TargetAttributes = {
 					2D39C6881F5A69100063ED7D = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = KLH7KKU3G8;
+						DevelopmentTeam = HQKCAGH7NP;
 						ProvisioningStyle = Automatic;
 					};
 					2D39C6A11F5A69100063ED7D = {
@@ -627,7 +627,7 @@
 			baseConfigurationReference = 5B2D8A5B3B9C14493241D3B6 /* Pods-WeexDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KLH7KKU3G8;
+				DEVELOPMENT_TEAM = HQKCAGH7NP;
 				INFOPLIST_FILE = WeexDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -641,7 +641,7 @@
 			baseConfigurationReference = F091D3CA5EBCECE99DC09444 /* Pods-WeexDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KLH7KKU3G8;
+				DEVELOPMENT_TEAM = HQKCAGH7NP;
 				INFOPLIST_FILE = WeexDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
