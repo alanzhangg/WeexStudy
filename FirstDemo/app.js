@@ -1,3 +1,3 @@
-import foo from './src/VideoTem.vue'
+import foo from './src/WebModule.vue'
 foo.el = '#root'
 export default new Vue(foo);
