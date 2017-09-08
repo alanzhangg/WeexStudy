@@ -1,3 +1,3 @@
-import foo from './src/ListTem.vue'
+import foo from './src/RefreshTem.vue'
 foo.el = '#root'
 export default new Vue(foo);
