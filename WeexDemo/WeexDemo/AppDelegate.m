@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <WeexSDK/WeexSDK.h>
 #import "WXImgLoaderDefaultImpl.h"
+#import "WXEventModule.h"
 
 @interface AppDelegate ()
 
@@ -28,6 +29,7 @@
 	
 	//图片加载
 	[WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
+	[WXSDKEngine registerModule:@"event" withClass:[WXEventModule class]];
 	
 		//register custom module and component，optional
 //	[WXSDKEngine registerComponent:@"MyView" withClass:[MyViewComponent class]];
