@@ -8,6 +8,7 @@
 
 #import "SecondViewController.h"
 #import <WeexSDK/WXSDKInstance.h>
+#import <TBWXDevTool/WXDevTool.h>
 
 @interface SecondViewController ()
 
@@ -25,6 +26,7 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 		// Do any additional setup after loading the view, typically from a nib.
+//	[[NSNotificationCenter defaultCenter] addObserver:self selector: name:noti object:<#(nullable id)#>]
 	self.title = @"weex";
 	_instance = [[WXSDKInstance alloc] init];
 	_instance.viewController = self;

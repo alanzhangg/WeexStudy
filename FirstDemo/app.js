@@ -1,3 +1,3 @@
-import foo from './src/Websocket.vue'
+import foo from './src/PickerTem.vue'
 foo.el = '#root'
 export default new Vue(foo);

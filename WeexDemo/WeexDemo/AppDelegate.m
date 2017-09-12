@@ -10,6 +10,7 @@
 #import <WeexSDK/WeexSDK.h>
 #import "WXImgLoaderDefaultImpl.h"
 #import "WXEventModule.h"
+#import <TBWXDevTool/WXDevTool.h>
 
 @interface AppDelegate ()
 
@@ -39,6 +40,8 @@
 //		//set the log level
 	[WXLog setLogLevel: WXLogLevelAll];
 	
+	[WXDevTool setDebug:YES];
+	[WXDevTool launchDevToolDebugWithUrl:@"ws://192.168.10.56:8088/debugProxy/native"];
 	
 	return YES;
 }
