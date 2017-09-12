@@ -23,9 +23,9 @@
                 picker.pickTime({
                     value: this.value
                 }, event => {
-//                    if (event.result === 'success'){
+                    if (event.result === 'success'){
                         this.value = event.data
-//                    }
+                    }
                 })
             }
         }
